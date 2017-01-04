@@ -1,0 +1,9 @@
+#yaac {
+  width: 360px;
+  height: 640px;
+}
+
+/* overwrite */
+.md-tabs .md-tab {
+  padding: 0;
+}

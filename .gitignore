@@ -1,0 +1,8 @@
+# System files
+.DS_Store
+._*
+
+# Modules
+node_modules
+
+lib/*.js

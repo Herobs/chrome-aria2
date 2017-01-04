@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "version": "1.0",
+  "name": "Getting started example",
+  "description": "Just a sample extension",
+  "icons": {
+    "16": "icons/icon48.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon48.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_popup": "popup.html",
+    "default_title": "Yaac"
+  },
+  "author": "Herobs <herobs@herobs.cn>",
+
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+
+  "content_security_policy": "default-src 'self' http://127.0.0.1:6800 https://127.0.0.1:6800; style-src 'unsafe-inline'"
+}
